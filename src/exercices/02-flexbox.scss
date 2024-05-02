@@ -13,14 +13,31 @@
   }
 
   .wrapper-1 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
   }
 
   .wrapper-2 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .wrapper-3 {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: end;
   }
 
   .wrapper-4 {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .wrapper-4 .box {
+    width: 50%;
   }
 }
